@@ -3,27 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info-Website</title>
+    <title>IT-Support Knowledge Base</title>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Info-Website",
-        "description": "Eine einfache Website mit strukturierten Informationen.",
+        "name": "IT-Support Knowledge Base",
+        "description": "Eine Wissensdatenbank für 1st-Level IT-Support-Anfragen.",
         "author": {
-            "@type": "Person",
-            "name": "Max Mustermann"
+            "@type": "Organization",
+            "name": "IT-Support Team"
         },
         "content": {
             "@type": "Text",
-            "headline": "Willkommen auf unserer Info-Seite!",
-            "text": "Hier stehen einige strukturierte Informationen, die von einem LLM leicht verstanden werden können."
-        }
+            "headline": "Willkommen in der IT-Support Knowledge Base!",
+            "text": "Hier finden Sie Lösungen für häufige IT-Probleme und Störungen."
+        },
+        "faq": [
+            {
+                "@type": "Question",
+                "name": "Mein Computer startet nicht. Was kann ich tun?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Überprüfen Sie, ob das Gerät mit Strom versorgt wird. Falls ja, halten Sie den Power-Knopf 10 Sekunden gedrückt und versuchen Sie es erneut."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Ich habe mein Passwort vergessen. Wie kann ich es zurücksetzen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nutzen Sie die Passwort-Zurücksetzen-Funktion auf der Anmeldeseite oder kontaktieren Sie den IT-Support."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Mein Drucker druckt nicht. Was kann ich tun?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Überprüfen Sie die Verbindung, starten Sie den Drucker neu und stellen Sie sicher, dass genügend Papier und Tinte vorhanden sind."
+                }
+            }
+        ]
     }
     </script>
 </head>
 <body>
-    <h1>Willkommen auf unserer Info-Seite!</h1>
-    <p>Hier stehen einige strukturierte Informationen, die von einem LLM leicht verstanden werden können.</p>
+    <h1>Willkommen in der IT-Support Knowledge Base!</h1>
+    <p>Hier finden Sie Lösungen für häufige IT-Probleme und Störungen.</p>
+    <h2>Häufige Fragen</h2>
+    <ul>
+        <li><strong>Mein Computer startet nicht.</strong> Überprüfen Sie die Stromversorgung und versuchen Sie einen Neustart.</li>
+        <li><strong>Ich habe mein Passwort vergessen.</strong> Nutzen Sie die Passwort-Zurücksetzen-Funktion oder kontaktieren Sie den IT-Support.</li>
+        <li><strong>Mein Drucker druckt nicht.</strong> Prüfen Sie die Verbindung und den Papierstand, starten Sie den Drucker neu.</li>
+    </ul>
 </body>
 </html>
